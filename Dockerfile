@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.16
 
 ENV VER=2.11.2 USER=gost PASSWORD=gost
 ENV TLS_PORT=433
