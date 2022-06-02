@@ -14,6 +14,10 @@
      "GOST_ARGS":{
        "description": "gost -L args",
        "value": "https+wss://gost:42bio@:443?probe_resist=code:400&knock=42bio.com"
+     },
+     "PORT":{
+       "description": "expose ports",
+       "value": "80"
      }
   },
   "stack": "container",
