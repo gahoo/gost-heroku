@@ -10,5 +10,5 @@ RUN apk add --no-cache wget \
 EXPOSE ${TLS_PORT}
 
 #CMD exec /gost -L=https+wss://$USER:$PASSWORD@:$TLS_PORT?probe_resist=code:400&knock=42bio.com
-CMD exec /gost -L https+wss://gost:42bio@:443?probe_resist=code:400&knock=42bio.com
+CMD exec /gost -L https+ws://gost:42bio@:443?probe_resist=code:400&knock=42bio.com
 
