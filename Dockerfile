@@ -1,7 +1,7 @@
 FROM alpine:3.16
 
 ENV VER=2.11.2 USER=gost PASSWORD=gost
-ENV TLS_PORT=433
+ENV TLS_PORT=443
 
 RUN apk add --no-cache wget \
   && wget https://github.com/ginuerzh/gost/releases/download/v2.11.2/gost-linux-amd64-${VER}.gz \
